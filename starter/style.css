@@ -1,0 +1,71 @@
+* {
+  font-family: "Press Start 2P", sans-serif;
+}
+body {
+  background: #f1f5f8;
+  color: #102a42;
+  overflow: hidden;
+}
+h1 {
+  letter-spacing: 0.1rem;
+  font-size: 5rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background-color: #f1f5f8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px dashed #102a42;
+  border-radius: 2rem;
+}
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #0094fd;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  color: #222;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  border: 2px dashed #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  transition: all 0.3s linear;
+}
+#step{
+  outline: none;
+  resize: none;
+}
+
+#decrease:hover {
+  background: red;
+  color: #fff;
+}
+
+#reset:hover {
+  background: #0094fd;
+  color: #fff;
+}
+
+#increase:hover {
+  background: green;
+  color: #fff;
+}
